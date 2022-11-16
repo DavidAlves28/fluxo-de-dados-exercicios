@@ -8,7 +8,7 @@ export const FormContainer = styled.div`
     flex-direction: column;
 `
 
-export const Form = styled.div`
+export const Form = styled.form`
     width: 40vw;
     height: 40vh;
     display: flex;
