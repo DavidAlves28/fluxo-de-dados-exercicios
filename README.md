@@ -29,8 +29,7 @@ Foi criada uma tela de "Login" na nossa aplicação. O seu trabalho vai ser:
     - Você pode usar o link da sua foto de perfil do Linkedin
     - A imagem será redonda e terá 50px de altura e 50px de largura
     - O nome do usuário deverá estar alinhado à imagem
-    - ambos estarão alinhados à esquerda da logo `Insta4`
-    
+    - ambos estarão alinhados à esquerda da logo `Insta4` 
 Um comportamento que já está implementado é o de troca de tela. Assim que clicamos no botão de login, somos levados para a próxima etapa do formulário, onde é possível fazer uma postagem no site.
 Você pode reaproveitar a função `login` dentro do componente `FormularioLogin.js` para implementar as funcionalidades que farão o nome e foto de perfil aparecerem no `Header` 
 
