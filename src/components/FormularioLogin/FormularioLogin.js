@@ -10,19 +10,31 @@ import {
 const FormularioLogin = (props) => {
   const login = () => {
     props.setPageFlow(2);
+
   };
+  const trocarNome = (e)=>{
+    props.setNome(e.target.value)
+  } ;
+  const trocarFoto = (e)=>{
+    props.setFoto(e.target.value)
+  } ;
+  // exercicio 2
+
   return (
     <FormContainer>
       <Form>
-        <StyledLabel>
+        <StyledLabel htmlFor="nome">
           Nome:
-          <Input type={"text"} />
+          <Input id="nome"
+          value={props.nome} onChange={trocarNome} />
         </StyledLabel>
-        <StyledLabel>
+        <StyledLabel htmlFor="foto">
           Foto de Perfil
-          <Input type={"text"} />
+          <Input id="foto" 
+            value={props.foto} onChange={trocarFoto}
+          />
         </StyledLabel>
-        <SendButton onClick={login}>Fazer Login</SendButton>
+        <SendButton onClick={login} >Fazer Login</SendButton>
       </Form>
     </FormContainer>
   );
