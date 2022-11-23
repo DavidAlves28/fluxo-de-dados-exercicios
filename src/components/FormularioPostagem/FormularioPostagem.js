@@ -37,8 +37,8 @@ export const FormularioCadastro = (props) => {
 
 
     <FormContainer>
-      <h2>Insira sua postagem abaixo: </h2>
       <Form onSubmit={novoPost}>
+      <h2>Insira sua postagem abaixo: </h2>
 
         <StyledLabel htmlFor="titulo">
           Titulo:
